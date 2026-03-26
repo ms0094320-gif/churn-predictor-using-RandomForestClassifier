@@ -1,4 +1,4 @@
-# 📉 Customer Churn Predictor
+# Customer Churn Predictor
 
 Predict which customers are likely to cancel their subscription using a Random Forest classifier.
 
@@ -6,7 +6,7 @@ Predict which customers are likely to cancel their subscription using a Random F
 
 ---
 
-## 📁 Files
+## Files
 
 ```
 churn-predictor/
@@ -16,7 +16,7 @@ churn-predictor/
     └── WA_Fn-UseC_-Telco-Customer-Churn.csv
 ```
 
-## ⚙️ Setup & Run
+## Setup & Run
 
 ```bash
 pip install -r requirements.txt
@@ -28,7 +28,7 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 Place the CSV inside a `data/` folder.
 
-## 🔍 What It Does
+## What It Does
 
 1. Loads and cleans the Telco dataset (7,043 customers, 21 features)
 2. Encodes categorical columns with LabelEncoder
@@ -36,7 +36,7 @@ Place the CSV inside a `data/` folder.
 4. Prints a full classification report
 5. Saves a confusion matrix and feature importance chart
 
-## 📊 Results
+## Results
 
 | Metric | No Churn | Churn |
 |--------|----------|-------|
@@ -46,5 +46,5 @@ Place the CSV inside a `data/` folder.
 
 **Top predictors:** tenure, TotalCharges, MonthlyCharges, Contract type
 
-## 🛠️ Stack
+## Stack
 `scikit-learn` · `pandas` · `matplotlib` · `joblib`
